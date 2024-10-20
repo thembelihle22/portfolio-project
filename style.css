@@ -1,11 +1,42 @@
+:root {
+  --primary-color: #6c63ff;
+  --secndary-color: #f9f7fe;
+  --primary-font: "Playfair Display", serif;
+  --default-font: "Poppins", sans-serif;
+}
+
 h1 {
-  font-family: "Playfair Display", serif;
+  font-family: var(--primary-font);
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  font-size: 96px;
 }
 p {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font);
   font-weight: 400;
   font-style: normal;
+}
+.hero {
+  background-color: var(--secondary-color);
+  text-align: center;
+  padding: 150px 20px;
+}
+.name {
+  font-family: var(--default-font);
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+}
+.button {
+  color: white;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  font-family: var(--default-font);
+  padding: 18px 46px;
+  width: 200px;
+  height: 65px;
+  text-decoration: none;
+  line-height: 27px;
 }
