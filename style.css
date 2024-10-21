@@ -1,6 +1,6 @@
 :root {
   --primary-color: #6c63ff;
-  --secndary-color: #f9f7fe;
+  --secondary-color: #f9f7fe;
   --primary-font: "Playfair Display", serif;
   --default-font: "Poppins", sans-serif;
 }
@@ -11,6 +11,10 @@ h1 {
   font-weight: 700;
   font-style: normal;
   font-size: 96px;
+}
+h2 {
+  font-family: var(--primary-font);
+  font-size: 62px;
 }
 p {
   font-family: var(--default-font);
@@ -39,4 +43,25 @@ p {
   height: 65px;
   text-decoration: none;
   line-height: 27px;
+}
+.text-paragraph {
+  font-size: 18px;
+  margin: 100px;
+}
+.project-paragraph {
+  line-height: 1.8;
+  font-size: 16px;
+  padding-bottom: 15px;
+}
+.btn-project {
+  text-decoration: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  padding: 30px 18px;
+  margin: 50px 0;
+}
+.project {
+  padding: 61px;
 }
