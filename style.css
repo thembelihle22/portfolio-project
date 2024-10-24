@@ -64,11 +64,19 @@ p {
 .project {
   padding: 61px;
 }
+.content {
+  padding: 150px;
+}
 .content h1 {
   font-size: 64px;
+  line-height: 1;
 }
 .content h2 {
   font-size: 18px;
+}
+.about-image {
+  border-radius: 4;
+  margin-left: 64px;
 }
 
 @media (max-width: 800px) {
