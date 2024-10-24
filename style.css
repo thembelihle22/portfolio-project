@@ -20,6 +20,7 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
@@ -63,6 +64,13 @@ p {
 .project {
   padding: 61px;
 }
+.content h1 {
+  font-size: 64px;
+}
+.content h2 {
+  font-size: 18px;
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 30px;
