@@ -78,6 +78,19 @@ p {
   border-radius: 4;
   margin-left: 64px;
 }
+.project-image {
+  border-radius: 20px;
+}
+.work-project h1 {
+  font-size: 64px;
+  line-height: 1.5;
+}
+.work-project h2 {
+  font-size: 24px;
+}
+.work-project p {
+  font-size: 14px;
+}
 
 @media (max-width: 800px) {
   h1 {
