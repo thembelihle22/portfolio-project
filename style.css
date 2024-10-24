@@ -91,6 +91,14 @@ p {
 .work-project p {
   font-size: 14px;
 }
+.contact-details h3 {
+  font-family: var(--default-font);
+  font-size: 18px;
+}
+.contact-details a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
 
 @media (max-width: 800px) {
   h1 {
