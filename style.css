@@ -53,7 +53,7 @@ p {
   font-size: 16px;
   padding-bottom: 15px;
 }
-.btn-branding-outline {
+.project-btn {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
   border-radius: 4px;
@@ -95,5 +95,16 @@ p {
   .project {
     text-align: center;
     padding: 0;
+  }
+  .content {
+    margin: 0;
+    text-align: center;
+    padding: 55px 10px;
+  }
+  .content h1 {
+    font-size: 30px;
+  }
+  .about-content {
+    line-height: 2;
   }
 }
