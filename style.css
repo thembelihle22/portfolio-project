@@ -20,6 +20,29 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+nav {
+  margin: 5px 84px 0 64px;
+}
+nav ul {
+  font-family: var(--default-font);
+  font-size: 16px;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 10px;
+}
+li a {
+  color: black;
+  text-decoration: none;
+}
+li a:hover,
+.activate {
+  color: var(--primary-color);
+}
+.logo {
+  margin-left: 45px;
+}
 
 .hero {
   background-color: var(--secondary-color);
