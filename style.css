@@ -21,7 +21,7 @@ p {
   font-style: normal;
 }
 nav {
-  margin: 5px 84px 0 64px;
+  margin: 15px 84px 0 64px;
 }
 nav ul {
   font-family: var(--default-font);
@@ -36,12 +36,12 @@ li a {
   color: black;
   text-decoration: none;
 }
-li a:hover,
-.activate {
+li a:hover {
   color: var(--primary-color);
 }
 .logo {
   margin-left: 45px;
+  max-height: 40px;
 }
 
 .hero {
